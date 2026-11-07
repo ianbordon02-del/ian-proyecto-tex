@@ -3,36 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactate con nosotros</title>
+    <title>Identa Design - Contacto Comercial y Presupuestos</title>
 </head>
 <body>
+
     <h1>Contacto</h1>
-<nav>
+
+    <!-- Menú de navegación principal -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./galeria.html">Galería</a></li>
+            <li><a href="./clientes.html">Clientes</a></li>
+            <li><a href="./contactos.html"><strong>Contactos</strong></a></li>
+        </ul>
+    </nav>
+
+    <!-- Formulario de pedidos y consultas -->
+    <main>
+        <h2>Iniciá tu Pedido Personalizado en IDENTA</h2>
+        <p>Completá este formulario detallando qué tipo de laburo necesitás hacer, los colores de tela que buscás y si ya contás con el logo listo. Te respondo con un presupuesto detallado junto con tu diseño digital de muestra en menos de 24 horas hábiles directo a tu correo o celular.</p>
+
+        <!-- Bloque interactivo del formulario de cotización -->
+        <section id="seccion-formulario">
+            <form action="#" method="POST">
+                
+                <div class="grupo-formulario">
+                    <label for="id-nombre">Nombre y Apellido o Razón Social de tu Empresa:</label>
+                    <input type="text" id="id-nombre" name="nombre" placeholder="Ej: Juan Pérez o Empresa S.A." required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="id-email">Tu Correo Electrónico de Contacto Directo:</label>
+                    <input type="email" id="id-email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="id-cantidad">Cantidad Total de Prendas que necesitás armar en el pedido:</label>
+                    <input type="number" id="id-cantidad" name="cantidad" min="1" placeholder="Ej: 30" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="id-servicio">¿Qué línea de productos te interesa cotizar?:</label>
+                    <select id="id-servicio" name="servicio" required>
+                        <option value="">-- Seleccioná una opción --</option>
+                        <option value="corporativo">Prendas Empresariales / Uniformes Laborales (Por mayor)</option>
+                        <option value="individual">Prendas Individuales / Estampas Urbanas Exclusivas (Desde 1 unidad)</option>
+                        <option value="merchandising">Gorras Trucker, Delantales Técnicos o Merchandising de Marca</option>
+                        <option value="deportivo">Indumentaria Deportiva Dry-Fit / Camisetas de Equipos</option>
+                    </select>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="id-mensaje">Detalles del Pedido (Colores de tela, molderías, tipo de estampa o bordados requeridos):</label>
+                    <textarea id="id-mensaje" name="mensaje" rows="6" placeholder="Contanos tu idea en detalle, colores que buscás, distribución del diseño (pecho, espalda, mangas) y si tenés el archivo vectorizado listo..."></textarea>
+                </div>
+
+                <div class="grupo-formulario">
+                    <button type="submit">Enviar Solicitud de Presupuesto Comercial</button>
+                </div>
+            </form>
+        </section>
+        <!-- Bloque de preguntas frecuentes comerciales -->
+        <section id="preguntas-frecuentes">
+            <h2>Preguntas Frecuentes que te pueden servir</h2>
+            <p>Antes de enviar tu consulta, te dejo una lista completa con las dudas técnicas y comerciales más recurrentes de nuestros clientes. Esto te puede ayudar a agilizar el armado de tu pedido:</p>
+            
+            <h3>¿Hacen envíos a todo el país, cómo embalan la ropa y cuál es el costo?</h3>
+            <p>Sí, hacemos envíos garantizados a todas las localidades y provincias de Argentina a través de las empresas de logística más conocidas y seguras del mercado (como Correo Argentino, Andreani u OCA), o mediante expresos de micros desde terminal si se trata de bultos mayoristas pesados. Cada prenda se dobla de forma individual, pasa por una plancha de vapor industrial para asentar el textil y se embolsa de forma hermética antes de meterse en cajas de cartón corrugado reforzadas, asegurando que tu ropa llegue limpia, seca e impecable sin importar los kilómetros de viaje. El costo exacto del flete se calcula según el volumen total y peso de la caja, pero para compras mayoristas grandes de uniformes de staff solemos bonificar el envío directo al local de tu empresa.</p>
+
+            <h3>¿Qué pasa si no tengo el logo de mi negocio en alta definición o vectorizado?</h3>
+            <p>No te hagas ningún drama por eso, es algo súper común. Si tenés el logotipo de tu marca guardado en una foto común del celular, una captura de pantalla de baja calidad o un archivo JPG pixelado, pasámelo igual en el cuadro de mensaje o por mail. Nuestro equipo técnico de diseño gráfico se encarga de revisarlo, limpiarlo y vectorizarlo desde cero de forma 100% gratuita para vos. Esto es obligatorio para que las películas de los estampados digitales DTF o las matrices de los bordados computarizados salgan perfectamente nítidas, bien definidas y sin bordes borrosos sobre el algodón.</p>
+
+            <h3>¿Cuáles son los plazos reales de entrega en el taller y qué métodos de pago aceptan?</h3>
+            <p>Para prendas de la línea individual (buzos sueltos o remeras singulares) el proceso completo de estampado y empaque nos toma entre 48 y 72 horas hábiles desde que aprobás el diseño digital. Para pedidos mayoristas corporativos grandes o uniformes técnicos complejos de baristas y operarios, el plazo estimado de confección varía entre los 7 y los 15 días de corrido, dependiendo de la cantidad de prendas solicitadas en la tanda y la complejidad de las matrices de bordado. Nos manejamos con total transparencia mediante transferencias bancarias directas, depósitos o Mercado Pago. Para los pedidos grandes de empresas, arrancamos la producción de confección en el taller una vez abonado el 50% del valor total en concepto de seña obligatoria, y el saldo restante lo cancelás cómodamente cuando te avisamos que las cajas están listas para ser despachadas o retiradas de forma presencial por el punto de retiro.</p>
+        </section>
+    </main>
+
+    <!-- Accesos directos a redes sociales -->
+    <h2>Redes Sociales</h2>
     <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./productos.html">Productos</a></li>
-        <li><a href="./galeria.html">Galería</a></li>
-        <li><a href="./clientes.html">Clientes</a></li>
-        <li><a href="./contactos.html"><strong>Contactos</strong></a></li>
+        <li>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../assets/logos/instagram.png" alt="Consultas inmediatas a través de Instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://facebook.com" target="_blank">
+                <img src="../assets/logos/facebook.png" alt="Consultas inmediatas a través de Facebook">
+            </a>
+        </li>
     </ul>
-</nav>
-    <form action="#" method="POST">
-    <!-- Campo: Nombre -->
-    <div class="grupo-formulario">
-        <label for="nombre">Nombre y apellido:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
-    </div>
 
-    <!-- Campo: Correo Electrónico -->
-    <div class="grupo-formulario">
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
-    </div>
-
-    <!-- Botón de Envío -->
-    <div class="grupo-formulario">
-        <button type="submit">Enviar mensaje</button>
-    </div>
-</form>
 </body>
 </html>
