@@ -1,5 +1,6 @@
+https://ianbordon02-del.github.io/ian-bordon-identa-design/
+
 # IDENTA - ROPA PERSONALIZADA
-https://github.com/ianbordon02-del/Ian-Bordon---IDENTAproyecto.-
 
 Sitio web oficial de Identa, una tienda online dedicada a la venta de indumentaria y prendas personalizadas. El sitio cuenta con una estructura base organizada para navegar entre catálogo, contacto y redes sociales.
 

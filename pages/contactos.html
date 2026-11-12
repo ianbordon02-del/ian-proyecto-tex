@@ -7,18 +7,19 @@
 </head>
 <body>
 
-    <h1>Contacto</h1>
-
-    <!-- Menú de navegación principal -->
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./galeria.html">Galería</a></li>
-            <li><a href="./clientes.html">Clientes</a></li>
-            <li><a href="./contactos.html"><strong>Contactos</strong></a></li>
-        </ul>
-    </nav>
+    <!-- Encabezado y menú de navegación principal -->
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./clientes.html">Clientes</a></li>
+                <li><a href="./contactos.html"><strong>Contactos</strong></a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Formulario de pedidos y consultas -->
     <main>
@@ -27,7 +28,7 @@
 
         <!-- Bloque interactivo del formulario de cotización -->
         <section id="seccion-formulario">
-            <form action="#" method="POST">
+            <form action="#" method="GET">
                 
                 <div class="grupo-formulario">
                     <label for="id-nombre">Nombre y Apellido o Razón Social de tu Empresa:</label>
@@ -65,6 +66,7 @@
                 </div>
             </form>
         </section>
+
         <!-- Bloque de preguntas frecuentes comerciales -->
         <section id="preguntas-frecuentes">
             <h2>Preguntas Frecuentes que te pueden servir</h2>
@@ -79,22 +81,36 @@
             <h3>¿Cuáles son los plazos reales de entrega en el taller y qué métodos de pago aceptan?</h3>
             <p>Para prendas de la línea individual (buzos sueltos o remeras singulares) el proceso completo de estampado y empaque nos toma entre 48 y 72 horas hábiles desde que aprobás el diseño digital. Para pedidos mayoristas corporativos grandes o uniformes técnicos complejos de baristas y operarios, el plazo estimado de confección varía entre los 7 y los 15 días de corrido, dependiendo de la cantidad de prendas solicitadas en la tanda y la complejidad de las matrices de bordado. Nos manejamos con total transparencia mediante transferencias bancarias directas, depósitos o Mercado Pago. Para los pedidos grandes de empresas, arrancamos la producción de confección en el taller una vez abonado el 50% del valor total en concepto de seña obligatoria, y el saldo restante lo cancelás cómodamente cuando te avisamos que las cajas están listas para ser despachadas o retiradas de forma presencial por el punto de retiro.</p>
         </section>
+
+        <!-- Accesos directos a redes sociales dentro de main -->
+        <section id="redes-sociales">
+            <h2>Redes Sociales</h2>
+            <ul>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="../assets/logos/instagram.png" alt="Consultas inmediatas a través de Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="../assets/logos/facebook.png" alt="Consultas inmediatas a través de Facebook">
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
 
-    <!-- Accesos directos a redes sociales -->
-    <h2>Redes Sociales</h2>
-    <ul>
-        <li>
-            <a href="https://instagram.com" target="_blank">
-                <img src="../assets/logos/instagram.png" alt="Consultas inmediatas a través de Instagram">
-            </a>
-        </li>
-        <li>
-            <a href="https://facebook.com" target="_blank">
-                <img src="../assets/logos/facebook.png" alt="Consultas inmediatas a través de Facebook">
-            </a>
-        </li>
-    </ul>
+    <!-- Pie de página semántico -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./contactos.html">Preguntas Frecuentes</a></li>
+                <li><a href="./contactos.html">Reclamos y Devoluciones</a></li>
+                <li><a href="./contactos.html">Ayuda al cliente</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 IDENTA Design. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
