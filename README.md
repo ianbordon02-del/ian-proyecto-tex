@@ -1,8 +1,8 @@
-https://ianbordon02-del.github.io/ian-bordon-identa-design/
+https://ianbordon02-del.github.io/ian-proyecto-tex/
 
-# IDENTA - ROPA PERSONALIZADA
+# Bordon Textil - ROPA PERSONALIZADA
 
-Sitio web oficial de Identa, una tienda online dedicada a la venta de indumentaria y prendas personalizadas. El sitio cuenta con una estructura base organizada para navegar entre catálogo, contacto y redes sociales.
+Sitio web oficial de Bordon Textil, una tienda online dedicada a la venta de indumentaria y prendas personalizadas. El sitio cuenta con una estructura base organizada para navegar entre catálogo, contacto y redes sociales.
 
 **Lista de Tecnologías**
 
